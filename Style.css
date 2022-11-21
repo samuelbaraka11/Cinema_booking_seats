@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #223339;
+    background-color: #C5AD9A;
     color: antiquewhite;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ body{
 }
 
 .seat.selected{
-    background-color: #6feaf6;
+    background-color: #395e39;
 }
 
 .seat.occupied{
@@ -97,7 +97,7 @@ body{
 }
 
 p.text span{
-    color: #6feaf6;
+    color: #395e39;
 }
 
 .screen {
@@ -109,5 +109,5 @@ p.text {
     margin: 5px 0;
 }
 p.text span {
-    color: #6feaf6;
+    color: #395e39;
 }
