@@ -17,7 +17,7 @@ function setMovieData(movieIndex, moviePrice) {
 //Update the total amount spent and the total count
 
 function updateSelectedCount() {
-    const selectedSeats = document.querySelectorAll('.row .seat .selected');
+    const selectedSeats = document.querySelectorAll('.row .seat.selected');
 
 const seatsIndex = [...selectedSeats]
 .map(seat => [...seats].indexOf(seat)
